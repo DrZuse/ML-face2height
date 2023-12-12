@@ -1,6 +1,8 @@
-# Celebrity Height Prediction System
+# Зerson Height Prediction System
 
-This system utilizes the DeepFace library for face detection and analysis, and a custom Keras convolutional neural network (CNN) model to predict the heights of a person based on their facial features. The system consists of several scripts for data collection, preprocessing, model training, and height prediction.
+This system designed for predicting the heights of individuals using a combination of web scraping, face detection, and deep learning techniques. The system starts by collecting celebrity data from 'https://www.celebheights.com/' through the celebheights.py script. The gathered data undergoes a cleaning process in cleaner.py, followed by resizing images in resizer.py based on detected facial areas. A convolutional neural network (CNN) model is then built, trained, and evaluated in model.py to predict person heights.
+
+The run.py script integrates face recognition with the trained model, providing a comprehensive solution to predict heights and analyze various facial attributes of celebrities. This repository aims to showcase the entire process from data collection to prediction, providing insights into the development of a person height prediction system.
 
 ## Scripts
 
@@ -23,7 +25,7 @@ This system utilizes the DeepFace library for face detection and analysis, and a
 ### 4. `model.py`
 
 - Creates, trains, and evaluates a CNN model using TensorFlow/Keras.
-- The model is designed to predict celebrity heights from resized face images.
+- The model is designed to predict person height from resized face images.
 - Saves the trained model.
 
 ### 5. `run.py`
