@@ -1,4 +1,4 @@
-# Зerson Height Prediction System
+# Person Height Prediction System
 
 This system designed for predicting the heights of individuals using a combination of web scraping, face detection, and deep learning techniques. The system starts by collecting celebrity data from 'https://www.celebheights.com/' through the celebheights.py script. The gathered data undergoes a cleaning process in cleaner.py, followed by resizing images in resizer.py based on detected facial areas. A convolutional neural network (CNN) model is then built, trained, and evaluated in model.py to predict person heights.
 
