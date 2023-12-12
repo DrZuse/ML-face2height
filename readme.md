@@ -1,6 +1,9 @@
+# Watch the video on YouTube
+[![Watch the video](https://img.youtube.com/vi/X65-ReGa2rk/sddefault.jpg)](https://www.youtube.com/watch?v=X65-ReGa2rk)
+
 # Person Height Prediction System
 
-This system designed for predicting the age, gender, race, emotion and height of individuals using a combination of web scraping, face detection, and deep learning techniques. The system starts by collecting celebrity data from 'https://www.celebheights.com/' through the celebheights.py script. The gathered data undergoes a cleaning process in cleaner.py, followed by resizing images in resizer.py based on detected facial areas. A convolutional neural network (CNN) model is then built, trained, and evaluated in model.py to predict person heights.
+This system is designed to predict the age, gender, race, emotion, and height of individuals using a combination of web scraping, face detection, and deep learning techniques. The system starts by collecting celebrity data from 'https://www.celebheights.com/' through the celebheights.py script. The gathered data undergoes a cleaning process in cleaner.py, followed by resizing images in resizer.py based on detected facial areas. A convolutional neural network (CNN) model is then built, trained, and evaluated in model.py to predict person heights.
 
 The run.py script integrates face recognition with the trained model, providing a comprehensive solution to predict heights and analyze various facial attributes of individuals. This repository aims to showcase the entire process from data collection to prediction, providing insights into the development of a person height prediction system.
 
@@ -25,12 +28,12 @@ The run.py script integrates face recognition with the trained model, providing 
 ### 4. `model.py`
 
 - Creates, trains, and evaluates a CNN model using TensorFlow/Keras.
-- The model is designed to predict person height from resized face images.
+- The model is designed to predict a person's height from resized face images.
 - Saves the trained model.
 
 ### 5. `run.py`
 
-- Performs face recognition on input images using DeepFace library.
+- Performs face recognition on input images using the DeepFace library.
 - Utilizes the trained model to predict heights.
 - Outputs visualizations and a CSV file with detailed information about detected faces.
 
