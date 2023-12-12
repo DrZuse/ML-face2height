@@ -1,8 +1,8 @@
 # Person Height Prediction System
 
-This system designed for predicting the heights of individuals using a combination of web scraping, face detection, and deep learning techniques. The system starts by collecting celebrity data from 'https://www.celebheights.com/' through the celebheights.py script. The gathered data undergoes a cleaning process in cleaner.py, followed by resizing images in resizer.py based on detected facial areas. A convolutional neural network (CNN) model is then built, trained, and evaluated in model.py to predict person heights.
+This system designed for predicting the age, gender, race, emotion and height of individuals using a combination of web scraping, face detection, and deep learning techniques. The system starts by collecting celebrity data from 'https://www.celebheights.com/' through the celebheights.py script. The gathered data undergoes a cleaning process in cleaner.py, followed by resizing images in resizer.py based on detected facial areas. A convolutional neural network (CNN) model is then built, trained, and evaluated in model.py to predict person heights.
 
-The run.py script integrates face recognition with the trained model, providing a comprehensive solution to predict heights and analyze various facial attributes of celebrities. This repository aims to showcase the entire process from data collection to prediction, providing insights into the development of a person height prediction system.
+The run.py script integrates face recognition with the trained model, providing a comprehensive solution to predict heights and analyze various facial attributes of individuals. This repository aims to showcase the entire process from data collection to prediction, providing insights into the development of a person height prediction system.
 
 ## Scripts
 
